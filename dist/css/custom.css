@@ -1,0 +1,43 @@
+.site-header::before {
+	background: linear-gradient(57deg, #00C6A7 0%, #1E4D92 100%);
+}
+
+
+.video-box {
+	box-shadow: 0 16px 48px #E3E7EB;
+	width: 720px;
+	height: 405px;
+	margin: auto;
+}
+
+
+.contact-form {
+	box-shadow: 0 16px 48px #E3E7EB;
+	max-width: 420px;
+	margin: 50px auto;
+	padding: 20px;
+}
+
+.contact-input {
+  color:black;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: white;
+  border:1px solid #eeeeee;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.contact-input:focus { border:2px solid #dddddd; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:none;
+}
