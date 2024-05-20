@@ -8,8 +8,6 @@
 
 .video-box {
 	box-shadow: 0 16px 48px #E3E7EB;
-	width: 720px;
-	height: 405px;
 	margin: auto;
 }
 
@@ -43,4 +41,9 @@ textarea {
   height: 150px;
   line-height: 150%;
   resize:none;
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
