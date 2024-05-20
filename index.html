@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="dist/css/style.css">
 	<link rel="stylesheet" href="dist/css/custom.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+	<script src="https://web3forms.com/client/script.js" async defer></script>
 	<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2ab939c0115a45c0a2d3813cf1a8c762"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
 <body class="is-boxed has-animations">
@@ -24,11 +25,7 @@
             </div>
         </header>
 		
-		
-		
-
         <main>
-		
 		
             <section class="hero text-light text-center">
                 <div class="container-sm">
@@ -194,11 +191,13 @@
                     <div class="features-inner section-inner has-top-divider">
                         <h2 class="section-title mt-0">Get in touch</h2>
 							
-<form id="contact" class="contact-form">
-	<input type="text" class="contact-input" placeholder="Name"/>
-	<input type="email" class="contact-input" placeholder="Email"/>
-	<textarea class="contact-input" placeholder="Your message"></textarea>
-	<input class="button button-secondary button-shadow" type="submit" value="Submit"/>
+<form id="contact" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="abed3260-2363-4805-8199-dc0fc500d19c"/>
+	<input type="text" name="name" class="contact-input" placeholder="Name"/>
+	<input type="email" name="email" class="contact-input" placeholder="Email"/>
+	<textarea name="message" class="contact-input" placeholder="Your message"></textarea>
+	<div class="h-captcha" data-captcha="true"></div>
+	<button class="button button-secondary button-shadow" type="submit">Submit</button>
 </form>
 	
 
