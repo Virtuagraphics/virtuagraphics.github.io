@@ -2,6 +2,9 @@
 	background: linear-gradient(57deg, #00C6A7 0%, #1E4D92 100%);
 }
 
+.team-photo {
+	border-radius:50%;
+}
 
 .video-box {
 	box-shadow: 0 16px 48px #E3E7EB;
